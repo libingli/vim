@@ -1,13 +1,15 @@
-# vim
+# Vim 
 personal vim configuration
 
-# Vundle
+![LastDrawing](https://github.com/libingli/vim/blob/master/doc/demo.png)
+
+# vundle
 
 项目托管在github上https://github.com/gmarik/vundle。
 其特色在于使用git来管理插件,更新方便，支持搜索，一键更新，从此只需要一个vimrc走
 天下。
 
-## 安装Vundle.vim
+## 安装vundle.vim
 ```
 mkdir ~/.vim/bundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim 
@@ -34,7 +36,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 ```
 
-## Vundle命令
+## vundle命令
 ```
 :BundleList -列举出列表中(.vimrc中)配置的所有插件
 :BundleInstall -安装列表中全部插件
@@ -46,12 +48,12 @@ filetype plugin indent on    " required
 ```
 # 常用插件的安装和使用
 
-# Vim-go
+# vim-go
 编辑~/.vimrc，在vundle#begin和vundle#end间增加一行：
 ```
 Plugin 'fatih/vim-go'
 ```
-在Vim内执行 ``:PluginInstall``
+在vim内执行 ``:PluginInstall``
 
 ## ctags和taglist
 
@@ -74,7 +76,7 @@ let Tlist_Exit_OnlyWindow=1          "如果taglist窗口是最后一个窗口�
 let Tlist_Use_Left_Windo =1          "在左侧窗口中显示taglist窗口
 ```
 
-## Tagbar
+## tagbar
 
 tagbar是一个taglist的替代品，比taglist更适合c++使用，函数能够按类区分，支持按类
 折叠显示等，显示结果清晰简洁。
