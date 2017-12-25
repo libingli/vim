@@ -63,7 +63,7 @@ syntax enable
 "set background=dark
 "colorscheme solarized
 "set  t_ti= t_te=
-"set cc=80
+"set cc=120
 "set shortmess=atI   " 启动的时候不显示那个援助乌干达儿童的提示
 set go=             " 不要图形按钮
 "color asmanian2     " 设置背景主题
